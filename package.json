@@ -38,7 +38,8 @@
   "scripts": {
     "test": "jest",
     "start": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "prepare": "npm run build"
   },
   "jest": {
     "verbose": true,
